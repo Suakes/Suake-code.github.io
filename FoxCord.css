@@ -5,12 +5,13 @@
 
 body{
 	font-family: sans-serif;
+	color: black;
 }
 
 #navigation{
 	position: -webkit-sticky;
 	position: sticky;
-	/*z-index: 2;*/
+	z-index: 10;
 }
 #navigation ul {
 	position: fixed;
