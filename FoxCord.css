@@ -170,6 +170,7 @@ h3 {
 }
 
 footer {
+	font-size: 20px;
 	color: white;
 /*	opacity: 80%;*/
 	z-index: 3;
@@ -178,9 +179,10 @@ footer {
 	left: 0;
 	bottom: 0;
 	width: 100%;
+	height: 50px;
 	text-align: center;
 	column-count: 3;
-	padding: 16px 0;
+	padding: 14px;
 	display: block;
 }
 footer a,
