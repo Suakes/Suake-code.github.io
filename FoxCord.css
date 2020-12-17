@@ -64,7 +64,7 @@ header img{
 
 .parallax {
 	background-image: url("Images/Background.jpg");
-	min-height: 700px; 
+	min-height: 750px; 
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
