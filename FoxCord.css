@@ -182,7 +182,8 @@ footer {
 	height: 50px;
 	text-align: center;
 	column-count: 3;
-	padding: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	display: block;
 }
 footer a,
