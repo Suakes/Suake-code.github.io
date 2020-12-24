@@ -3,18 +3,25 @@
 <head>
 	<title>Foxcord.fr</title>
 	<link rel="stylesheet" type="text/css" href="FoxCord.css">
+	<link rel="stylesheet" type="text/css" href="Ressources.css">
 	<link rel="icon" type="image/png" href="Images/ppserv1.png">
 </head>
 <body>
 	<header>
 		<nav id="navigation">
 			<ul>
-				<li><a href="index.html" >Menu Pas fini</a></li>
+				<li><a href="index.html" >Menu</a></li>
 				<li><a href="Guide.html" >Guide pour débuter</a></li>
-				<li><a href="#Ressources" >Ressources Pas fait</a></li>
-				<li><a href="MU.html" >MatchUps Pas fait</a></li>
-				<li><a href="Hitbox.html" >Hitbox et utilité des attaques Pas fait</a></li>
-				<li><a href="Combos.html" >Combos Pas fait</a></li>
+				<li class="deroulant"><a href="" >Ressources</a>
+                    <ul class="sous">
+                        <li><a href="#sitesutiles">Des sites utiles</a></li>
+                        <li><a href="#tierlist">Tierlist et MU chart</a></li>
+                        <li><a href="#grah2zano">Les graphs de Zano</a></li>
+                    </ul>
+                </li>
+				<li><a href="MU.html" >MatchUps</a></li>
+				<li><a href="Hitbox.html" >Hitbox et utilité des attaques</a></li>
+				<li><a href="Combos.html" >Combos</a></li>
 			</ul>
 		</nav>
 		<img src="Images/ppserv1.png" alt="Logo de la SUS" title="@TrixeraS" /></li>
@@ -25,8 +32,40 @@
 		<h1>Ressources :</h1>
 		<div class="texte" id="Ressources">
 			<article>
-				
-				<p id="outro">Ceci est un test en attendant du contenu.<br />ça ne devrait tarder.<br /> Test</p>
+
+				<h3 id="sitesutiles">Des sites qui peuvent être utiles :</h3>
+
+				<ul>
+					<li>Voici <a href="https://docs.google.com/spreadsheets/d/1wohzlhHm6bHbzl9bNBHiIQhjwzp9ZgoeTEostOMd3G0/edit#gid=0" target="_blank">les options Out Of Shield de toute les persos</a> mis à jours régulièrement.</li>
+
+					<li><a href="https://www.ssbu-stage-guides.com/" target="_blank">Pour savoir approximativement les bonnes et mauvaises maps de l'adversaire par rapport au MU.</a> Peu fiable mais peut être pratique si vous en avez vraiment aucune idée.</li>
+
+					<li><a href="https://docs.google.com/spreadsheets/d/1OvtrVaAup-hUDDssyJq2uU_jPfkvTDZNeokQKVt-tiY/edit?usp=sharing" target="_blank">Ce google Doc indique les pourcentages de kill du nair upsmash en fonction de la blast zone et de la DI.</a> "Tumble" c'est le pourcentage à partir duquel l'adversaire peut être knock down, c'est à dire qu'il peut atterir avec une tech, donc le combo n'est plus 100% true. Vous pouvez le retrouver en dessous dans la section <a href="#grah2zano">des graphs de Zano</a></li>
+
+					<li><a href="http://tournameta.com/stage-comparison/" target="_blank">Un site</a> pour comparer les blastzone</li>
+
+					<li><a href="https://www.outofshield.com/" target="_blank">Savoir si un move est punissable.</a> Attention, il ne prend pas en compte le spacing et prend le cas où l'adversaire rentre le coup à la bonne frame pour que ce soit le plus safe possible. Ce qui fait que parfois un move sera punissable en game et pas théoriquement. Par contre ça veut aussi dire que si il dit que vous pouvez le punir, c'est que peut importe comment l'adversaire met le coup (sauf si il vous outrange) vous pouvez le punir en game.</li>
+
+					<li><a href="https://docs.google.com/spreadsheets/d/1XeTAl5HFv21JUV2Em0lUjROyzZI8BnIC059iPvr5KWQ/edit?usp=sharing" target="_blank">Pour connaître les coups qui touchent l’edge</a></li>
+				</ul>
+
+				<h3 id="tierlist">Tier List et MU chart :</h3>
+
+				<ul>
+					<li>Une tier list par <a href="https://twitter.com/RyuKai__" target="_blank">Ryukai</a> <img src="Images/MU_chart_ryukai.jpg" /></li>
+
+					<li>Classement des maps pour Fox suite à un débat sur le Foxcord. Pas à jours avec la 10.1 <img src="Images/Stage_tier_liste.jpg"></li>
+				</ul>
+
+				<h3 id="grah2zano">Les graphs de Zano :</h3>
+
+				<ul>
+					<li>Un graph de % pour le Nair Upsmash !<img src="Images/CHART_NAIR_UPSMASH.png" /></li>
+
+					<li>Un autre sur le Uptilt > Fair ce coup-ci ! La DI n'est pas prise en compte. A noter que surtout pour les gros persos c'est avec la hitbox qui touche devant Fox que le Uptilt touche <img src="Images/CHART_UPTILT_FAIR.jpg"></li>
+
+				</ul>
+				<p id="outro">Si vous trouvez des erreurs n'hésitez pas à nous contacter !</p>
 			</article>
 		</div>
 	</main>
