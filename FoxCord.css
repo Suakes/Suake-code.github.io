@@ -1,200 +1,46 @@
-* {
-	box-sizing: border-box;
-	margin: 0;
-}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Foxcord.fr</title>
+	<link rel="stylesheet" type="text/css" href="FoxCord.css">
+	<link rel="icon" type="image/png" href="Images/ppserv1.png">
+</head>
+<body>
+	<header>
+		<nav id="navigation">
+			<ul>
+				<li><a href="index.html" >Menu</a></li>
+				<li><a href="Guide.html" >Guide pour débuter</a></li>
+				<li><a href="Ressources.html" >Ressources</a></li>
+				<li><a href="MU.html" >MatchUps</a></li>
+				<li><a href="Hitbox.html" >Hitbox et utilité des attaques</a></li>
+				<li><a href="#Combos" >Combos</a></li>
+			</ul>
+		</nav>
+		<img src="Images/ppserv1.png" alt="Logo de la SUS" title="@TrixeraS" /></li>
+	</header>
 
-body{
-	font-family: sans-serif;
-	color: black;
-}
+	<div class="parallax"></div>
 
-#navigation{
-	position: -webkit-sticky;
-	position: sticky;
-	/*z-index: 10*/
-}
-#navigation ul {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #193A6F;
-}
-#navigation li {
-	border-right: 1px solid #bbb;
-	float: left;
-}
-#navigation li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-#navigation li a:hover {
-	background-color: #11224D;
-}
-#navigation li:last-child {
-	border-right: none;
-}
+	<main>
+		<h1>Combos :</h1>
+		<div class="texte" id="Combos">
+			<article>
+				<p id="intro">Cette partie n'est pas encore fini désolé. J'essaye de faire ça vite ! N'hésitez pas à allez voir dans <a href="Ressources.html">l'onglet Ressources</a> vous devrez y trouvez quelques informations en plus.</p>
 
-header img{
-	position: fixed;
-	width: 50px;
-	z-index: 3;
-	top: 0;
-	right: 0;
-}
+				<p><a href="https://docs.google.com/spreadsheets/d/1nL6l1Anowqj16jQ_dMLsJXql-DZyKONAw9Fu4flLbDI/edit?usp=sharing" target="_blank">Fenêtres de % dans lesquelles les combos de Fox fonctionnent</a></p>
 
-#navigation > ul li:hover .sous{
-	display: block;
-}
+				<p>Quoi chercher entre 0 et 10% avec Fox <img src="Images/Quechercher0.png"></p>
 
-.sous li{
-	float:none;
-	text-align: left;
-}
+				<p id="outro">Si vous avez des idées de docs à mettre ici n'hésitez pas à me contacter !</p>
+			</article>
+		</div>
+	</main>
 
-.sous{
-	display: none;
-}
-
-.parallax {
-	background-image: url("Images/Background.jpg");
-	min-height: 600px; 
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-main {
-	/*background-image: url("Images/Background_txt2_or2.png");*/
-	background-color: rgba(252, 163, 17, 1);
-}
-
-article {
-/*	border-radius: 30px;
-	background-color: rgba(255, 255, 255, 0.3);
-	margin-bottom: 50px;*/
-}
-
-h1 {
-	background-color: rgba(20, 33, 61, 1);
-	text-align: center;
-	padding: 10px;
-	font-size: 400%;
-}
-
-h2 {
-	/*background-color: rgba(33, 89, 157, 1);*/
-	text-align: center;
-	font-size: 250%;
-	padding-top: 50px;
-}
-
-h3 {
-	font-size: 200%;
-	text-decoration: underline;
-	padding: 0;
-}
-
-
-#intro{
-	padding-top: 10px;
-}
-
-#intro,
-#outro{
-	text-align: center; 
-	text-indent: 0mm;
-}
-
-#outro{
-	margin-bottom: 50px;
-}
-
-#gif img {
-	max-width: 30%;
-	margin-left: 0px;
-	border: 5px solid;
-	border-image: linear-gradient(blue, lightblue) 5;
-}
-
-#news {
-	padding-left: 15px;
-	padding-top: 8px;
-	text-indent: 0mm;
-}
-
-.texte {
-	margin-left: 15%;
-	margin-right: 15%;
-	max-width: 1300px;
-/*	font-family: Roboto;*/
-}
-
-.texte ul{
-	list-style-type:"- ";
-	font-size: 150%;
-	padding-right: 20px;
-}
-
-.texte a{
-	text-decoration: none;
-	color: black;
-	font-weight: bold;
-}
-.texte a:hover{
-	text-decoration: underline;
-}
-
-.texte p{
-	padding-left: 20px;
-	padding-right: 20px;
-	text-indent: 20mm;
-	text-align: justify;
-	font-size: 150%;
-	padding-bottom: 10px;
-}
-
-.texte img{
-	width: 40%;
-	background-color: rgba(255, 255, 255, 0.1);
-	display: block;
-	margin-left: auto;
-	margin-right: auto
-}
-
-footer {
-	font-size: 20px;
-	color: white;
-/*	opacity: 80%;*/
-	z-index: 3;
-	background-color: #193A6F;
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 50px;
-	text-align: center;
-	column-count: 3;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	display: block;
-}
-footer a,
-footer a:link,
-footer a:visited{
-	text-decoration: none;
-	color: white;
-}
-footer a:hover{
-	text-decoration: underline;
-}
-footer p:hover{
-	text-decoration: underline;
-}
+	<footer>
+		<a href="https://discord.gg/4JfXSG9" target="_blank">Nous rejoindre !</a><br />
+		<a href ="https://twitter.com/Suake__" target="_blank">Contacter le développeur</a><br />
+		<a href="https://twitter.com/Foxcordfr" target="_blank">Notre Twitter</a> 
+	</footer>
+</body>
+</html>
