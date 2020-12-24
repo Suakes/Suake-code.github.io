@@ -1,0 +1,17 @@
+.texte li {
+	padding-top: 10px;
+}
+
+.texte li img {
+	width: 600px;
+}
+
+#outro {
+	padding-top: 40px;
+}
+
+.texte h3 {
+	font-size: 200%;
+	padding-top: 45px;
+	padding-bottom: 30px;
+}
