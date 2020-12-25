@@ -16,7 +16,7 @@
     border-image: linear-gradient(blue, lightblue) 5;
 }
 
-@media (max-width: 750px){
+@media (max-width: 1024px){
 
     #gif{ 
         grid-template-columns: 1fr;
