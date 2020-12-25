@@ -1,64 +1,82 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Foxcord.fr</title>
-	<link rel="stylesheet" type="text/css" href="FoxCord.css">
-	<link rel="icon" type="image/png" href="Images/ppserv1.png">
+    <title>Foxcord.fr</title>
+    <link rel="stylesheet" type="text/css" href="FoxCord.css">
+    <link rel="icon" type="image/png" href="Images/ppserv1.png">
 </head>
 <body>
-	<header>
-		<nav id="navigation">
-			<ul>
-				<li><a href="index.html" >Menu</a></li>
-				<li><a href="Guide.html" >Guide pour débuter</a></li>
-				<li><a href="Ressources.html" >Ressources</a></li>
-				<li class="deroulant"><a href="" >MatchUps</a>
-					<ul class="sous">
-						<li><a href="#Mario">Mario</a></li>
-						<li><a href="#Snake">Snake</a></li>
-						<li><a href="#Bowser">Bowser</a></li>
-						<li><a href="#Ice">Ici's</a></li>
-						<li><a href="#2Min">Min-Min</a></li>
-						<li><a href="#Ike">Ike</a></li>
-						<li><a href="#Link">Link</a></li>
-						<li><a href="#YLink">Young-Link</a></li>
-					</ul>
-				</li>
-				<li><a href="Hitbox.html" >Hitbox et utilité des attaques</a></li>
-				<li><a href="Combos.html" >Combos</a></li>
-			</ul>
-		</nav>
-		<img src="Images/ppserv1.png" alt="Logo de la SUS" title="@TrixeraS" /></li>
-	</header>
+    <header>
+    <div class="header"></div>
+        <input type="checkbox" class="opennavigation" id="opennavigation">
+        <label for="opennavigation" class="sidebarIconToggle">
+            <div class="spinner diagonal part-1"></div>
+            <div class="spinner horizontal"></div>
+            <div class="spinner diagonal part-2"></div>
+        </label>
+        <div id="navigation">
+            <ul class="navbar">
+                <li>
+                    <a href="index.html">Acceuil</a>
+                </li>
+                <li>
+                    <a href="Guide.html">Guide pour débuter</a>
+                </li>
+                <li>
+                    <a href="Ressources.html">Ressources</a>
+                </li>
+                <li>
+                    <a href="#">MatchUps</a>
+                    <ul>
+                        <li><a href="#Mario">Mario</a></li>
+                        <li><a href="#Snake">Snake</a></li>
+                        <li><a href="#Bowser">Bowser</a></li>
+                        <li><a href="#Ice">Ici's</a></li>
+                        <li><a href="#2Min">Min-Min</a></li>
+                        <li><a href="#Ike">Ike</a></li>
+                        <li><a href="#Link">Link</a></li>
+                        <li><a href="#YLink">Young-Link</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Hitbox.html" id="grand">Hitbox et utilité des attaques</a>
+                </li>
+                <li>
+                    <a href="Combos.html">Combos</a>
+                </li>
+            </ul>
+        </div>
+        <img src="Images/ppserv1.png" alt="Logo de la SUS" title="@TrixeraS" /></li>
+    </header>
 
-	<div class="parallax"></div>
-	
-	<main>
-		<h1>MatchUps</h1>
-		<div class="texte" id="MU">
-			<article>
-				<p id="intro">Voici les différents documents sur quelques MU de Fox. Nous allons essayez d'en travailler un peu plus afin d'alimenter cette catégorie. Si vous cherchez des graph indiquants à quels % fonctionnents quels combos, vous pouvez aller dans <a href="Ressources.html">l'onglet Ressources</a></p>
-			</article>
-			<article>
-				<ul>
-					<li id="Mario"><a href="https://docs.google.com/document/d/1HMA5O_io5AaQcH24Y3pOnUApe2byVXn8b_KIyfmCFko/edit?usp=sharing" target="_blank">Mario JMU notes</a></li>
-					<li id="Snake"><a href="Ressources/MU_Snake.pdf" target="_blank">Traduction MU Snake</a></li>
-					<li id="Bowser"><a href="Ressources/MU_Bowser.pdf" target="_blank">Traduction MU Bowser</a></li>
-					<li id="Ice"><a href="https://docs.google.com/document/d/1-SfVtK-bTHcVV7qJvp-ZzfIJsHLCpDLOoHVRTTNsLHQ" target="_blank">Ici's</a></li>
-					<li id="2Min"><a href="https://docs.google.com/document/d/1do7_ANLYcDfZvLfw3fsFUM05Yr6Jx3FDNM23qg9ZboY/edit?usp=sharing" target="_blank">Min-Min</a></li>
-					<li id="Ike"><a href="https://docs.google.com/document/d/1xYoZLo2zHYcpXkYT33e343IcWKv7yC5shlmwbr5SiJ4/edit?usp=sharing" target="_blank">Ike</a></li>
-					<li id="Link">Si vous voulez comprendre le fonctionnement de l'edgetrap de Link pour mieux s'en sortir,<a href="https://docs.google.com/document/d/1_UBCsI34JDPYHmZ3fGAmzvMln52KXgRCI21T0NxmRVw/edit" target="_blank"> voici un doc ultra complet qui en parle</a></li>
-					<li id="YLink"><a href="https://twitter.com/TigrlouYL/status/1324450266721230857" target="_blank">Young Link</a></li>
-				</ul>
-				<p id="outro"></p>
-			</article>
-		</div>
-	</main>
+    <div class="parallax"></div>
+    
+    <main>
+        <h1>MatchUps</h1>
+        <div class="texte" id="MU">
+            <article>
+                <p id="intro">Voici les différents documents sur quelques MU de Fox. Nous allons essayez d'en travailler un peu plus afin d'alimenter cette catégorie. Si vous cherchez des graph indiquants à quels % fonctionnents quels combos, vous pouvez aller dans <a href="Ressources.html">l'onglet Ressources</a></p>
+            </article>
+            <article>
+                <ul>
+                    <li id="Mario"><a href="https://docs.google.com/document/d/1HMA5O_io5AaQcH24Y3pOnUApe2byVXn8b_KIyfmCFko/edit?usp=sharing" target="_blank">Mario JMU notes</a></li>
+                    <li id="Snake"><a href="Ressources/MU_Snake.pdf" target="_blank">Traduction MU Snake</a></li>
+                    <li id="Bowser"><a href="Ressources/MU_Bowser.pdf" target="_blank">Traduction MU Bowser</a></li>
+                    <li id="Ice"><a href="https://docs.google.com/document/d/1-SfVtK-bTHcVV7qJvp-ZzfIJsHLCpDLOoHVRTTNsLHQ" target="_blank">Ici's</a></li>
+                    <li id="2Min"><a href="https://docs.google.com/document/d/1do7_ANLYcDfZvLfw3fsFUM05Yr6Jx3FDNM23qg9ZboY/edit?usp=sharing" target="_blank">Min-Min</a></li>
+                    <li id="Ike"><a href="https://docs.google.com/document/d/1xYoZLo2zHYcpXkYT33e343IcWKv7yC5shlmwbr5SiJ4/edit?usp=sharing" target="_blank">Ike</a></li>
+                    <li id="Link">Si vous voulez comprendre le fonctionnement de l'edgetrap de Link pour mieux s'en sortir,<a href="https://docs.google.com/document/d/1_UBCsI34JDPYHmZ3fGAmzvMln52KXgRCI21T0NxmRVw/edit" target="_blank"> voici un doc ultra complet qui en parle</a></li>
+                    <li id="YLink"><a href="https://twitter.com/TigrlouYL/status/1324450266721230857" target="_blank">Young Link</a></li>
+                </ul>
+                <p id="outro"></p>
+            </article>
+        </div>
+    </main>
 
-	<footer>
-		<a href="https://discord.gg/4JfXSG9" target="_blank">Nous rejoindre !</a><br />
-		<a href ="https://twitter.com/Suake__" target="_blank">Contacter le développeur</a><br />
-		<a href="https://twitter.com/Foxcordfr" target="_blank">Notre Twitter</a> 
-	</footer>
+    <footer>
+        <a href="https://discord.gg/4JfXSG9" target="_blank">Nous rejoindre !</a><br />
+        <a href ="https://twitter.com/Suake__" target="_blank">Un bug ?</a><br />
+        <a href="https://twitter.com/Foxcordfr" target="_blank">Notre Twitter</a> 
+    </footer>
 </body>
 </html>
