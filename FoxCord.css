@@ -89,7 +89,7 @@ header img{
 
 header img{
     position: fixed;
-    width: 60px;
+    width: 48px;
     z-index: 3;
     top: 0;
     right: 0;
@@ -347,10 +347,7 @@ footer a:hover{
         transform: rotate(-135deg);
         margin-top: -9px;
     }
-}
-
-
-@media (max-width: 800px){
+    
     .parallax {
         min-height: 485px
     }
