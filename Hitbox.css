@@ -1,28 +1,28 @@
 #gif {
-	display: grid;
-	grid-template-columns: 1fr 3fr; 
+    display: grid;
+    grid-template-columns: 1fr 3fr; 
 }
 
 #gif h3 {
-	grid-column: span 2;
-	font-size: 200%;
-	text-decoration: underline;
-	padding: 0;
+    grid-column: span 2;
+    font-size: 200%;
+    text-decoration: underline;
+    padding: 0;
 }
 
 #gif img {
-	width: 100%;
-	border: 5px solid;
-	border-image: linear-gradient(blue, lightblue) 5;
+    width: 100%;
+    border: 5px solid;
+    border-image: linear-gradient(blue, lightblue) 5;
 }
 
 @media (max-width: 750px){
 
-	#gif{ 
-    	grid-template-columns: 1fr;
-	}
+    #gif{ 
+        grid-template-columns: 1fr;
+    }
 
-	#gif h3{
-    	grid-column: span 1;
-	}
+    #gif h3{
+        grid-column: span 1;
+    }
 }
