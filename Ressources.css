@@ -1,17 +1,23 @@
 .texte li {
-	padding-top: 10px;
+    padding-top: 10px;
 }
 
 .texte li img {
-	width: 600px;
+    width: 600px;
 }
 
 #outro {
-	padding-top: 40px;
+    padding-top: 40px;
 }
 
 .texte h3 {
-	font-size: 200%;
-	padding-top: 45px;
-	padding-bottom: 30px;
+    font-size: 200%;
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 800px){
+    .texte li img {
+        width: 100%;
+    }
 }
