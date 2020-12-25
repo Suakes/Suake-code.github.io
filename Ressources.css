@@ -16,7 +16,7 @@
     padding-bottom: 30px;
 }
 
-@media (max-width: 800px){
+@media (max-width: 1024px){
     .texte li img {
         width: 100%;
     }
