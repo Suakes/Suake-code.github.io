@@ -7,22 +7,40 @@
 </head>
 <body>
     <header>
-        <nav id="navigation">
-            <ul>
-                <li><a href="index.html" >Menu</a></li>
-                <li class="deroulant"><a href="" >Guide pour débuter</a>
-                    <ul class="sous">
+    <div class="header"></div>
+        <input type="checkbox" class="opennavigation" id="opennavigation">
+        <label for="opennavigation" class="sidebarIconToggle">
+            <div class="spinner diagonal part-1"></div>
+            <div class="spinner horizontal"></div>
+            <div class="spinner diagonal part-2"></div>
+        </label>
+        <div id="navigation">
+            <ul class="navbar">
+                <li>
+                    <a href="index.html">Acceuil</a>
+                </li>
+                <li>
+                    <a href="#">Guide pour débuter</a>
+                    <ul>
                         <li><a href="#part1">Les bases</a></li>
                         <li><a href="#part2">Fox</a></li>
                         <li><a href="#part3">Gameplan</a></li>
                     </ul>
                 </li>
-                <li><a href="Ressources.html" >Ressources</a></li>
-                <li><a href="MU.html" >MatchUps</a></li>
-                <li><a href="Hitbox.html" >Hitbox et utilité des attaques</a></li>
-                <li><a href="Combos.html" >Combos</a></li>
+                <li>
+                    <a href="Ressources.html">Ressources</a>
+                </li>
+                <li>
+                    <a href="MU.html">MatchUps</a>
+                </li>
+                <li>
+                    <a href="Hitbox.html" id="grand">Hitbox et utilité des attaques</a>
+                </li>
+                <li>
+                    <a href="Combos.html">Combos</a>
+                </li>
             </ul>
-        </nav>
+        </div>
         <img src="Images/ppserv1.png" alt="Logo de la SUS" title="@TrixeraS" /></li>
     </header>
 
@@ -111,7 +129,7 @@
     </main>
     <footer>
         <a href="https://discord.gg/4JfXSG9" target="_blank">Nous rejoindre !</a><br />
-        <a href ="https://twitter.com/Suake__" target="_blank">Contacter le développeur</a><br />
+        <a href ="https://twitter.com/Suake__" target="_blank">Un bug ?</a><br />
         <a href="https://twitter.com/Foxcordfr" target="_blank">Notre Twitter</a> 
     </footer>
 </body>
