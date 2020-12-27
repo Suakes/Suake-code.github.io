@@ -11,13 +11,42 @@
 
 .texte h2 {
     text-align: left;
-    font-size: 200%;
+    font-size: 40px;
     padding-top: 45px;
     padding-bottom: 20px;
 }
 
-@media (max-width: 1024px){
+#menu {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 4fr 1fr;
+    padding-bottom: 50px;
+}
+
+#menu iframe {
+    margin-top: -60px;
+}
+
+@media (max-width: 1200px){
     .texte ul {
         font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .texte a {
+        font-size: 22px;
+    }
+
+}
+
+
+@media (max-width: 1024px){
+    #menu {
+        grid-template-columns: 1fr;
+    }
+
+    #menu iframe {
+        display: none;
     }
 }
+
