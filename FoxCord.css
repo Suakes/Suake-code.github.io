@@ -129,6 +129,7 @@ h2 {
     text-indent: 0mm;
 }
 #outro{
+    padding-top: 10px;
     margin-bottom: 50px;
 }
 
@@ -378,6 +379,7 @@ footer a:hover{
     }
 
     #outro {
+        padding-top: 20px;
         font-size: 20px;
         margin-bottom: 70px;
     }
