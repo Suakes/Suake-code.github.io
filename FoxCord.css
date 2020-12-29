@@ -51,6 +51,7 @@ body{
     color: white; 
     display: block;
 }
+
 .navbar #grand {
     padding: 4px 5px;
 }
@@ -62,13 +63,13 @@ body{
     height: auto;                                    
     margin: 0; 
     padding: 0; 
-}                
+}
 .navbar li:hover ul{
     display: block;
 }
 .navbar li ul li {
     background-color: #0A1A33;
-} 
+}
 .navbar li ul li a{
     border-left: 1px solid #444444; 
     border-right: 1px solid #444444; 
@@ -129,7 +130,6 @@ h2 {
     text-indent: 0mm;
 }
 #outro{
-    padding-top: 10px;
     margin-bottom: 50px;
 }
 
@@ -257,6 +257,11 @@ footer a:hover{
         text-decoration: none;
     }
 
+    .navbar a{ 
+        border-left: 0px;
+        border-top: 1px solid grey;
+    }
+
     .navbar li{
 		width: 500px;
     	font-size: 32px;  
@@ -379,7 +384,6 @@ footer a:hover{
     }
 
     #outro {
-        padding-top: 20px;
         font-size: 20px;
         margin-bottom: 70px;
     }
