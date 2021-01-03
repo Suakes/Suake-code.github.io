@@ -11,6 +11,10 @@
     padding-right: 20px;
 }
 
+.texte li {
+    padding-top: 10px;
+}
+
 .texte a {
     font-size: 26px;    
 }
