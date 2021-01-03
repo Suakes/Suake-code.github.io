@@ -46,7 +46,7 @@ body{
 .navbar a{
     text-align: center;
     padding: 14px 16px;  
-    border-left: 1px solid #ccc9c9;
+    border-right: 1px solid #ccc9c9;
     text-decoration: none; 
     color: white; 
     display: block;

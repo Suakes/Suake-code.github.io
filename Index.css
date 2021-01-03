@@ -1,3 +1,9 @@
+.texte {
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 1400px;
+}
+
 .texte ul {
     list-style-type:"- ";
     text-align: justify;
@@ -38,7 +44,6 @@
     }
 
 }
-
 
 @media (max-width: 1024px){
     #menu {
